@@ -1,0 +1,45 @@
+// Core variables and mixins
+
+@import "components/vars";
+
+@import "components/body";
+
+
+@import "components/header";
+
+
+.layout{
+  	flex: 1 0 auto;
+}
+
+
+
+// .wrapper{
+// 	display: table-row;
+// 	height: 100%;
+// }
+.container-fluid{
+	max-width: 1346px;
+	// padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+
+// .page-content{
+// 	display: table-cell;
+// 	height: 100%;
+// }
+
+
+@import "components/footer";
+
+
+
+
+@import "components/media";
+
+
+
+
+

@@ -1,0 +1,120 @@
+/*FONT-FAMILY*/
+/*FONT-SIZE*/
+/*BACKGROUND*/
+/*TEXT-COLOR*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html {
+  height: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*:focus {
+  outline: none;
+  -moz-outline-style: none; }
+
+:-moz-any-link:focus {
+  outline: 1px dotted invert; }
+
+:-moz-any-link:focus {
+  outline: none; }
+
+textarea, input {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+a {
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+  text-decoration: none; }
+  a:not([class]) {
+    color: #058ACD; }
+    a:not([class]):hover {
+      color: #056493; }
+
+body {
+  margin: 0;
+  height: 100%;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #000;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+textarea, input {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+::-webkit-input-placeholder {
+  color: #a5a8ab;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+::-moz-placeholder {
+  color: #a5a8ab;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+:-moz-placeholder {
+  color: #a5a8ab;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+:-ms-input-placeholder {
+  color: #a5a8ab;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+:focus::-webkit-input-placeholder {
+  color: transparent; }
+
+:focus::-moz-placeholder {
+  color: transparent; }
+
+:focus:-moz-placeholder {
+  color: transparent; }
+
+:focus:-ms-input-placeholder {
+  color: transparent; }
+
+.layout {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto; }
+
+.container-fluid {
+  max-width: 1346px;
+  position: relative;
+  width: 100%; }
+
+.page-footer {
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
