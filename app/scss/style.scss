@@ -581,16 +581,22 @@ h2{
 .qr-img{
 	width: 340px;
 	margin-right: 40px;
+	    flex-wrap: wrap;
 	img{
 		display: block;
 		max-width: 100%;
 		
 	}
 	&.m-single{
+		    flex-wrap: wrap;
 		width: 100%;
 		display: flex;
 		justify-content: center;
 		margin-right: 0;
+		.qr-img__info{
+			max-width: 540px;
+			margin: 0 auto;
+		}
 	}
 }
 .final-info{
@@ -607,6 +613,9 @@ h2{
 	p{
 
 	}
+}
+.qr-img__info-wrap{
+	min-width: 100%;
 }
 
 .final__step{
@@ -637,7 +646,16 @@ h2{
 	padding-top: 3px;
 	color: #E30613;
 }
-
+.qr-img__info{
+	font-size: 13px;
+    line-height: 1.1;
+    margin-bottom: 3px;
+    width: 100%;
+    &:last-child{
+    	margin-bottom: 0;
+    }
+}
+	
 @import "components/footer";
 
 
@@ -649,3 +667,4 @@ h2{
 
 
 
+	
