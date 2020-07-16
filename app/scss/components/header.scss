@@ -1,4 +1,37 @@
 .page-header{
-
+	background: #FFFFFF;
+	border-bottom: 1px solid #F7F7F7;
+	padding: 29px 0 27px;
 }
 
+.page-header__wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top-logo{
+	display: inline-block;
+	width: 144px;
+	height: 37px;
+	background: url(../img/svg/logo.svg) no-repeat;
+}
+.log-out{
+	display: inline-block;
+	color: #333333;
+	position: relative;
+	padding-left: 20px;
+	&:before{
+		content: "";
+		display: inline-block;
+		width: 14px;
+		height: 15px;
+		background: url(../img/svg/logout.svg) no-repeat;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	&:hover{
+		color: #E30613;
+	}
+}

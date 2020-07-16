@@ -1,3 +1,22 @@
 .page-footer{
 	flex-shrink: 0;
+	background: #F7F7F7;
+	padding: 25px 0;
+	font-size: 16px;
+}
+
+.page-footer__wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.page-footer__links{
+	a{
+		display: inline-block;
+		margin-right: 10px;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
 }
