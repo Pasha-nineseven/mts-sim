@@ -20,6 +20,9 @@ $(document).ready(function() {
 			adaptiveHeight: true,
 			nextArrow: $('.top-slider__right'),
   			prevArrow: $('.top-slider__left'),
+  			autoplay: true,
+  			autoplaySpeed: 6000,
+  			pauseOnHover: false,
   			responsive: [
 			    {
 			      	breakpoint: 768,
@@ -39,6 +42,26 @@ $(document).ready(function() {
 		    ]
 		});
 	}
+
+
+	if ($('#btn-counter').length>0) {
+		var spn = document.getElementById("timer-sec");
+		var btn = document.getElementById("btn-counter");
+
+		var count = 43;
+		var timer = null;
+
+		(function countDown(){
+		  	spn.textContent = count;
+		  	if(count !== 0){
+		    	timer = setTimeout(countDown, 1000);
+		    	count--;
+		  	} else {
+		    	btn.removeAttribute("disabled");
+		  	}
+		}());
+	}
+	
 });
 
 
